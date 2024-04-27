@@ -1,0 +1,95 @@
+@media screen and (max-width:600px){
+    .nav{
+        height: 75px;
+    }
+    .logo{
+        width: 25%;
+    }
+    .logo>img{
+        width: 75%;
+    }
+    .name{
+        width: 75%;
+    }
+    .name>h1{
+        font-size: 5vw;
+        padding-right: 10px;
+    }
+    .nav2{
+        height: 40px;
+    }
+    .nav2>ul{
+        display: none;
+    }
+    .nav2ul>li>a{
+      font-size: 20px;
+    }
+    .icon>i{
+        display: flex;
+        margin-left: 430px;
+    }
+    .nav2>ul.showData{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 110px;
+        background: linear-gradient(to left,#056570 0%,#012529 80%);
+        
+        height: 250px;
+        width: 97vw;
+        gap: 10px;
+        z-index: 10;
+    }
+    .page2{
+        flex-direction: column;
+        width: 100vw;
+    }
+    .page2>.left{
+       width: 100%;
+    }
+    .left>h1{
+        font-size: 8vw;
+        font-weight: 100;
+    }
+    .line #box{
+        width: 50vw;
+    }
+    .left>p{
+        font-size: 3vw;
+    }
+    .page2>.right{
+        width: 100%;
+    }
+    form>h1{
+        font-size: 7vw;
+    }
+    input, textarea{
+        font-size: 2vw;
+        padding: 1vw;
+    }
+    lable{
+        padding: 2vw;
+    }
+    form>button{
+        font-size: 2vw;
+        padding: 2vw 3vw;
+    }
+    .page3{
+        flex-direction: column;
+    }
+    .card{
+        height: 200px;
+        margin-top: 40px;
+    }
+    .container{
+        height: 100%;
+    }
+    .footer-col{
+        width: 100%;
+        margin: 30px;
+    }
+    .content>h3{
+        width: 100%;
+        font-size: 13px;
+    }
+}
